@@ -1,5 +1,5 @@
     <!-- ========== footer start =========== -->
-    <footer class="footer bg-white">
+    <footer class="footer">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 order-last order-md-first">
@@ -7,7 +7,7 @@
                         <p class="text-sm">
                             Designed and Developed by
                             <a href="https://plainadmin.com" rel="nofollow" target="_blank">
-                                PlainAdmin
+                                Overflow
                             </a>
                         </p>
                     </div>

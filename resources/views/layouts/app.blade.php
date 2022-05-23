@@ -8,7 +8,7 @@
   <!-- CSRF Token -->
 
   <link rel="stylesheet" href="{{ asset('bootstrap/dist/css/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/fontawesome/all.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/fontawesome/fontawesome.min.css') }}">
   <link rel="stylesheet" href="{{ asset('css/kanit_thai/index.css') }}">
   <link rel="stylesheet" href="{{asset('css/main.css')}}">
   <link rel="stylesheet" href="{{asset('css/footer.css')}}">
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  @include('components.sidebar')
+  {{-- @include('components.sidebar') --}}
   <div class="overlay"></div>
   @yield('content')
 
