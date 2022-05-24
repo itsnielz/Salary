@@ -20,18 +20,6 @@
                         <p class="text-center">20</p>
                     </div>
                 </div>
-                <div class="card m-4">
-                    <div class="card-body">
-                        <p>จำนวนพนักงานที่มาทำงาน</p>
-                        <p class="text-center">20</p>
-                    </div>
-                </div>
-                <div class="card m-4">
-                    <div class="card-body">
-                        <p>จำนวนพนักงานที่ลางาน</p>
-                        <p class="text-center">0</p>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -39,7 +27,7 @@
             <div class="card-header">
                 <div class="d-flex justify-content-between">
                     <h4>พนักงานทั้งหมด</h4>
-                    <button type="button" class="btn btn-outline-success">แก้ไข</button>
+                    <a href="{{asset('/edit')}}"><button type="button" class="btn btn-outline-success">แก้ไข</button></a>
                 </div>
             </div>
             <div class="card-body">

@@ -16,7 +16,7 @@
             <div class="card-header">
                 <div class="d-flex justify-content-between">
                     <h4>จัดการพนักงาน</h4>
-                    <button type="button" class="btn btn-outline-success">เพิ่มพนักงาน</button>
+                    <a href="{{asset('/frm_add')}}"><button type="button" class="btn btn-outline-success">เพิ่มพนักงาน</button></a>
                 </div>
             </div>
             <div class="card-body">
@@ -40,7 +40,7 @@
                             <td>@mdo</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href="#"><i class="fa-solid fa-pen-to-square mr-2" style="font-size: 25px"></i></a> <a href="#"><i class="fa-solid fa-trash-can" style="font-size: 25px"></i></a> </td>
+                            <td><a href="{{asset('/frm_edit')}}"><i class="fa-solid fa-pen-to-square mr-2" style="font-size: 25px"></i></a> <a href="#"><i class="fa-solid fa-trash-can" style="font-size: 25px" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></a> </td>
                       
                         </tr>
                         <tr>
@@ -72,8 +72,26 @@
                 </table>
             </div>
         </div>
-
     </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ลบข้อมูลพนักงาน</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          คุณต้องการลบข้อมูลหรือไม่ ?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+          <button type="button" class="btn btn-danger">ลบข้อมูล</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 

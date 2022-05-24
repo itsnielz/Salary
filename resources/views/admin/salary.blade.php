@@ -16,7 +16,6 @@
             <div class="card-header">
                 <div class="d-flex justify-content-between">
                     <h4>จัดการเงินเดือน</h4>
-                    <button type="button" class="btn btn-outline-success">เพิ่มพนักงาน</button>
                 </div>
             </div>
             <div class="card-body">
@@ -29,7 +28,12 @@
                             <th scope="col">นามสกุล</th>
                             <th scope="col">ตำแหน่ง</th>
                             <th scope="col">แผนก</th>
-                            <th scope="col">แก้ไข</th>
+                            <th scope="col">เงินเดือน</th>
+                            <th scope="col">ค่าประจำตำแหน่ง</th>
+                            <th scope="col">ค่าโทรศัพท์</th>
+                            <th scope="col">เงินอื่น</th>
+                            <th scope="col">รวม</th>
+                            <th scope="col">พิมพ์</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,7 +44,12 @@
                             <td>@mdo</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href="#"><i class="fa-solid fa-pen-to-square mr-2" style="font-size: 25px"></i></a> <a href="#"><i class="fa-solid fa-trash-can" style="font-size: 25px"></i></a> </td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td>@mdo</td>
+                            <td><a href="#"><i class="fa-solid fa-pen-to-square mr-2" style="font-size: 25px"></i></a></td>
                       
                         </tr>
                         <tr>
@@ -72,9 +81,7 @@
                 </table>
             </div>
         </div>
-
     </div>
-
 </body>
 
 @include('components.footer')

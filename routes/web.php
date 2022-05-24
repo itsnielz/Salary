@@ -22,3 +22,9 @@ Route::get('/edit', function () {
 Route::get('/salary', function () {
     return view('admin/salary');
 });
+Route::get('/frm_edit', function () {
+    return view('admin/frm_edit');
+});
+Route::get('/frm_add', function () {
+    return view('admin/frm_add');
+});
