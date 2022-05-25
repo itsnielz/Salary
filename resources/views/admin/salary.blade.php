@@ -49,7 +49,7 @@
                             <td>@mdo</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href="#"><i class="fa-solid fa-pen-to-square mr-2" style="font-size: 25px"></i></a></td>
+                            <td><a href="#"><i class="fa-solid fa-print" style="font-size: 25px"></i></a></td>
                       
                         </tr>
                         <tr>

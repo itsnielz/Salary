@@ -15,21 +15,25 @@
         <div class="d-flex justify-content-center">
             <div class="card m-4 col-md-6">
                 <div class="card-header">
-                    <h3>เพิ่มข้อมูลพนักงาน</h3>
+                    <h3>เพิ่มข้อมูลพนักงาน <i class="fa-solid fa-user-plus"></i></h3>
                 </div>
                 <div class="card-body">
                     <form>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">รหัสพนักงาน</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        {{-- name --}}
-                        <h3>ชื่อ-สกุล</h3>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">คำนำหน้า</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                        <div class="d-flex justify-content-between">
+                            <div class="col-md-6">
+                                <div class="mb-3 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">รหัสพนักงาน</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">คำนำหน้าชื่อ</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
                         </div>
                         <div class="d-flex justify-content-between">
                             <div class="col-md-6">
@@ -41,7 +45,23 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">นามสกล</label>
+                                    <label for="exampleInputEmail1" class="form-label">นามสกุล</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div class="col-md-6">
+                                <div class="mb-3 me-2">
+                                    <label for="exampleInputEmail1" class="form-label">เบอร์โทรศัพท์</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">อีเมล์</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1"
                                         aria-describedby="emailHelp">
                                 </div>
@@ -49,7 +69,7 @@
                         </div>
                         {{-- name --}}
                         {{-- position --}}
-                        <h3>ตำแหน่ง</h3>
+                        
                         <div class="d-flex justify-content-between">
                             <div class="col-md-6">
                                 <div class="mb-3 me-2">
@@ -68,7 +88,7 @@
                         </div>
                         {{-- position --}}
                         {{-- salary --}}
-                        <h3>เงินเดือน</h3>
+                        
                         <div class="d-flex justify-content-between">
                             <div class="col-md-6">
                                 <div class="mb-3 me-2">

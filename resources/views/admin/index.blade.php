@@ -17,7 +17,7 @@
                 <div class="card m-4">
                     <div class="card-body">
                         <p>จำนวนพนักงานทั้งหมด</p>
-                        <p class="text-center">20</p>
+                        <p class="text-center"><i class="fa-solid fa-users"></i> 20</p>
                     </div>
                 </div>
             </div>
@@ -25,9 +25,13 @@
 
         <div class="card mb-4">
             <div class="card-header">
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between mt-2">
                     <h4>พนักงานทั้งหมด</h4>
-                    <a href="{{asset('/edit')}}"><button type="button" class="btn btn-outline-success">แก้ไข</button></a>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    {{-- <a href="{{asset('/edit')}}"><button type="button" class="btn btn-outline-success">แก้ไข</button></a> --}}
                 </div>
             </div>
             <div class="card-body">

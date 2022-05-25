@@ -18,18 +18,20 @@ body{
 .footer a{
 	color: #fff;
 }
-.navbar li:hover{
+/* .navbar li:hover{
 	transform: scale(1.1);
 	transition: .5s;
-}
+} */
 .card a{
 	text-decoration: none;
 	color: #000;
 	margin: 5px;
 }
-.btn:hover{
-	transition: .5s;
-	transform: scale(1.2);
+.card-header{
+	align-content: center;
+}
+.card-body a:hover{
+	color: #238333 !important;
 }
 /* =========== Sidebar css =========== */
 .sidebar-nav-wrapper {

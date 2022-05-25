@@ -29,7 +29,7 @@
                             <th scope="col">นามสกุล</th>
                             <th scope="col">ตำแหน่ง</th>
                             <th scope="col">แผนก</th>
-                            <th scope="col">แก้ไข</th>
+                            <th scope="col" class="text-center">แก้ไข</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -40,7 +40,7 @@
                             <td>@mdo</td>
                             <td>@mdo</td>
                             <td>@mdo</td>
-                            <td><a href="{{asset('/frm_edit')}}"><i class="fa-solid fa-pen-to-square mr-2" style="font-size: 25px"></i></a> <a href="#"><i class="fa-solid fa-trash-can" style="font-size: 25px" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></a> </td>
+                            <td class="d-flex justify-content-center" ><a href="{{asset('/frm_edit')}}"><i class="fa-solid fa-pen-to-square mr-2" style="font-size: 25px"></i></a> <a href="#"><i class="fa-solid fa-trash-can" style="font-size: 25px" data-bs-toggle="modal" data-bs-target="#exampleModal"></i></a> </td>
                       
                         </tr>
                         <tr>
