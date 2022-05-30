@@ -47,7 +47,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($data as $Employee)
+                        @foreach ($EMP as $Employee)
                             <tr>
                                 <td>{{ $Employee->id }}</td>
                                 <td>{{ $Employee->name }}</td>

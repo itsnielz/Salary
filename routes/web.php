@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EmployeeController;
 
-Route::resource('Employee',EmployeeController::class);
+Route::resource('admin',EmployeeController::class);
 
 /*
 |--------------------------------------------------------------------------
@@ -15,10 +15,10 @@ Route::resource('Employee',EmployeeController::class);
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('admin/index');
-});
+Route::get('/', [EmployeeController::class, 'index']);
+// Route::get('/', function () {
+//     return view('admin/index');
+// });
 Route::get('/edit', function () {
     return view('admin/edit');
 });
