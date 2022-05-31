@@ -18,6 +18,9 @@ body{
 .footer a{
 	color: #fff;
 }
+.navbar li:hover{
+	border-bottom:	#238333 solid  ;
+}
 /* .navbar li:hover{
 	transform: scale(1.1);
 	transition: .5s;

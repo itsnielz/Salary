@@ -14,7 +14,7 @@
     <div class="container">
         <div class="col-md-12">
             <div class="d-flex justify-content-center">
-                <div class="card m-4">
+                <div class="card text-white bg-success m-4">
                     <div class="card-body">
                         <p>จำนวนพนักงานทั้งหมด</p>
                         <p class="text-center"><i class="fa-solid fa-users"></i> 20</p>
@@ -24,7 +24,7 @@
         </div>
 
         <div class="card mb-4">
-            <div class="card-header">
+            <div class="card-header ">
                 <div class="d-flex justify-content-between mt-2">
                     <h4>พนักงานทั้งหมด</h4>
                     <form class="d-flex">
@@ -42,17 +42,25 @@
                             <th scope="col">คำนำหน้า</th>
                             <th scope="col">ชื่อ</th>
                             <th scope="col">นามสกุล</th>
-                            <th scope="col">ตำแหน่ง</th>
+                            <th scope="col">ที่อยู่</th>
+                            <th scope="col">เบอร์โทร</th>
+                            <th scope="col">อีเมล์</th>
                             <th scope="col">แผนก</th>
+                            <th scope="col">ตำแหน่ง</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach ($EMP as $Employee)
                             <tr>
-                                <td>{{ $Employee->id }}</td>
-                                <td>{{ $Employee->name }}</td>
-                                <td>{{ $Employee->email }}</td>
+                                <td>{{ $Employee->employee_id }}</td>
+                                <td>{{ $Employee->gender }}</td>
+                                <td>{{ $Employee->fname }}</td>
+                                <td>{{ $Employee->lname }}</td>
                                 <td>{{ $Employee->address }}</td>
+                                <td>{{ $Employee->phone }}</td>
+                                <td>{{ $Employee->email }}</td>
+                                <td>{{ $Employee->dpt }}</td>
+                                <td>{{ $Employee->role }}</td>
                             </tr>
                         @endforeach
                     </tbody>

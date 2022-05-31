@@ -1,4 +1,4 @@
-    <!-- ========== footer start =========== -->
+    {{-- <!-- ========== footer start =========== -->
     <footer class="footer">
         <div class="container-fluid">
             <div class="row">
@@ -28,4 +28,4 @@
         </div>
         <!-- end container -->
     </footer>
-    <!-- ========== footer end =========== -->
+    <!-- ========== footer end =========== --> --}}

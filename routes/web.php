@@ -19,9 +19,12 @@ Route::get('/', [EmployeeController::class, 'index']);
 // Route::get('/', function () {
 //     return view('admin/index');
 // });
-Route::get('/edit', function () {
-    return view('admin/edit');
-});
+Route::get('/edit', [EmployeeController::class, 'show_editpage']);
+// Route::get('/edit', function () {
+//     return view('admin/edit');
+// });
+
+
 Route::get('/salary', function () {
     return view('admin/salary');
 });
